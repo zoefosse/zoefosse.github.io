@@ -6,7 +6,7 @@
     <title>Gallery | Zoë Fossé</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,13 +25,7 @@
         <div class="gallery-container">
             <h1 class="gallery-title">Gallery</h1>
 
-            <!-- 
-            =====================================================
-            CATEGORY TABS
-            You can rename these categories to match your work!
-            Just make sure to update the data-category values too
-            =====================================================
-            -->
+            <!-- Category Tabs -->
             <div class="gallery-tabs">
                 <button class="gallery-tab active" data-category="all">All</button>
                 <button class="gallery-tab" data-category="landscapes">Landscapes</button>
@@ -40,82 +34,54 @@
                 <button class="gallery-tab" data-category="video">Video</button>
             </div>
 
-            <!-- 
-            =====================================================
-            ALL IMAGES GALLERY
-            This shows when "All" is selected
-            =====================================================
-            -->
+            <!-- Gallery Grid -->
             <div class="gallery-category active" id="all">
                 <div class="gallery-grid">
-                    <!-- 
-                    =====================================================
-                    HOW TO ADD IMAGES:
-                    1. Copy one of the gallery-item divs below
-                    2. Change the src to your image path
-                    3. Add a data-category that matches your tab
-                    
-                    Example:
+                    <!-- Landscape images -->
                     <div class="gallery-item" data-category="landscapes">
-                        <img src="images/my-landscape-photo.jpg" alt="Mountain sunset">
-                    </div>
-                    =====================================================
-                    -->
-                    
-                    <!-- Landscape placeholders -->
-                    <div class="gallery-item" data-category="landscapes">
-                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" 
-                             alt="Landscape placeholder 1">
+                        <img src="images/IMG_0383.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="landscapes">
-                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80" 
-                             alt="Landscape placeholder 2">
+                        <img src="images/IMG_0422.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="landscapes">
-                        <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&q=80" 
-                             alt="Landscape placeholder 3">
+                        <img src="images/IMG_0501.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     
-                    <!-- Portrait placeholders -->
+                    <!-- Portrait images -->
                     <div class="gallery-item" data-category="portraits">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" 
-                             alt="Portrait placeholder 1">
+                        <img src="images/IMG_0529.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="portraits">
-                        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&q=80" 
-                             alt="Portrait placeholder 2">
+                        <img src="images/IMG_0741.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="portraits">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&q=80" 
-                             alt="Portrait placeholder 3">
+                        <img src="images/IMG_0878.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     
-                    <!-- Street placeholders -->
+                    <!-- Street images -->
                     <div class="gallery-item" data-category="street">
-                        <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&q=80" 
-                             alt="Street placeholder 1">
+                        <img src="images/IMG_1067.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="street">
-                        <img src="https://images.unsplash.com/photo-1517732306149-e8f829eb588a?w=600&q=80" 
-                             alt="Street placeholder 2">
+                        <img src="images/IMG_2361.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="street">
-                        <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?w=600&q=80" 
-                             alt="Street placeholder 3">
+                        <img src="images/IMG_2504.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     
-                    <!-- Video placeholders (these can be thumbnail images that link to videos) -->
+                    <!-- Video thumbnails -->
                     <div class="gallery-item" data-category="video">
-                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600&q=80" 
-                             alt="Video thumbnail 1">
+                        <img src="images/IMG_2524.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="video">
-                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&q=80" 
-                             alt="Video thumbnail 2">
+                        <img src="images/IMG_4968.jpg" alt="Photo by Zoë Fossé">
                     </div>
                     <div class="gallery-item" data-category="video">
-                        <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=600&q=80" 
-                             alt="Video thumbnail 3">
+                        <img src="images/IMG_5743.jpg" alt="Photo by Zoë Fossé">
+                    </div>
+                    <div class="gallery-item" data-category="video">
+                        <img src="images/IMG_9427.jpg" alt="Photo by Zoë Fossé">
                     </div>
                 </div>
             </div>

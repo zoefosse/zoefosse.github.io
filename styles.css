@@ -20,7 +20,7 @@ You can customize colors, fonts, and sizes here!
     FONTS - You can change these!
     Make sure to update the Google Fonts link in HTML too
     */
-    --font-display: 'Cormorant Garamond', serif;  /* For titles */
+    --font-display: 'Bebas Neue', 'Cormorant Garamond', serif;  /* For titles */
     --font-body: 'Space Mono', monospace;          /* For body text */
     
     /* Spacing */
